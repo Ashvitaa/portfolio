@@ -1,0 +1,206 @@
+body{
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+   
+    min-height: 3000px;
+    background-color: #d9d9d9;
+    color: #0e0a0a;
+
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    height: 100%;
+    line-height: 60px;
+}
+   
+
+
+
+.links {
+    display: flex;
+    gap: 250px;
+  
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:#d9d9d9;
+    box-shadow: 0 1px 6px 0 black;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+
+
+header nav {
+    
+    display: inline-block;
+   
+}
+header nav ul li {
+    display: inline-block;
+   
+
+}
+
+header nav ul li a {
+    color:black;
+    font-size: 15px;
+    letter-spacing: 0.37px;
+    margin-right: 24px;
+    text-decoration: none;
+
+}
+header nav ul li:last-of-type a{
+    margin-right: 0;
+}
+
+section {
+     color: white;
+     height: 1000px;
+    
+}
+#hero_image {
+    position: absolute;
+    max-width: 100%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 350px;
+    bottom:auto;  
+    
+}
+#hero_image img{
+    animation: myAnim 6s ease 0s 1 normal forwards;
+    width: 800px;
+}
+  
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: scale(0.6);
+	}
+
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+#subtitle {
+    position: absolute;
+    color: black;
+    margin-top: 780px;
+    margin-left:550px;
+    text-align: center;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+}
+
+
+
+#bestworks h1 {
+   font-size: 90px;
+   color: #0e0a0a;
+}
+
+#bestworks p {
+    font-weight: 300;
+    color: #0e0a0a;
+    font-style: italic;
+    font-size: larger;
+    text-align: center;
+}
+#bestworks {
+    position: absolute;
+    max-width: 100%;
+    display: inline-block;
+    margin-left: 430px;
+    margin-right: auto;
+    margin-top: 0px;
+    bottom:auto;  
+}
+
+.videocontainer {
+   position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 400px;
+    margin-left: 30px;
+}
+.videocontainer #videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+    gap: 400px;
+    align-self: flex-start;
+  }
+.para {
+    position: absolute;
+    margin-top: 900px;
+    margin-left: 700px;
+    font-weight: 200;
+    font-style: italic;
+    font-size: x-large
+}
+  
+.para a {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    
+  }
+  
+.para a:hover {
+    color: burlywood;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+
+
+footer {
+
+    margin-top: 300px;
+    margin-left: 30px;
+    background-color:black;
+    width: 95%;
+    height: 600px;
+    box-shadow: 0 1px 6px 0 #e6e6db;
+}
+
+ #msg {
+    position: absolute;
+    color:#d9d9d9;
+    font-size: 80px;
+    margin-left: 30px;
+    padding-top: 20px;
+    font-weight: 450;
+    font-style: bold;
+    
+}
+
+#socials {
+    position: absolute;
+    color:#e0d9cb;
+    font-size: 20px;
+    margin-left: 30px;
+    padding-top: 350px;
+    font-weight: 100;
+    font-style: italic;
+    
+}
